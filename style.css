@@ -17,6 +17,8 @@ h2{
     margin-bottom: 15px;
 }
 .calculator{
+    width: 90%;
+    max-width: 380px;
     background: #1c1c1c;
     padding: 20px;
     border-radius: 25px;
@@ -42,7 +44,8 @@ h2{
     gap: 10px;
 }
 button{
-    height: 50px;
+    width: 70px;
+    height: 70px;
     border: none;
     border-radius: 50%;
     font-size: 1.2rem;
@@ -51,12 +54,7 @@ button{
     background: #333;
     color: white;
 }
-button:hover{
-    transform: scale(1.05);
-}
-button:active{
-    transform: scale(0.95);
-}
+
 .function{
     background: #a5a5a5;
     color: black;
@@ -74,8 +72,14 @@ button:active{
 @media(max-width:480px){
     .calculator{
         width: 95%;
+       padding: 15px;
+    }
+    #display{
+        height: 90px;
+        font-size: 2.5rem;
     }
     button{
         height: 60px;
+        font-size: 1.1rem;
     }
 }
