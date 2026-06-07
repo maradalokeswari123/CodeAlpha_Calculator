@@ -83,9 +83,9 @@ button:active{
         font-size: 2rem;
     }
     button{
-        width: 70px;
-        height: 70px;
-        font-size: 1.1rem;
+        width: 50px;
+        height: 50px;
+        font-size: 0.9rem;
     }
     h2{
         font-size: 2rem;
